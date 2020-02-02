@@ -1,5 +1,4 @@
 (function(){
-    window.onload = function(){
     let div = document.createElement("div");
     let txt = document.createTextNode("NING WANG'S WORK SAMPLES");
     div.appendChild(txt);
@@ -8,5 +7,4 @@
     if (h && h[0]){
         h[0].parentNode.prepend(div);
     }
-};
 }());
